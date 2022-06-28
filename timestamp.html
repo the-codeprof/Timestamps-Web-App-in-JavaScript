@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timestamp Implementation in JS</title>
+    <link rel="stylesheet" href="timestamp.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="content">
+            <div class="left">
+                <!-- the left picture -->
+                <img src="./sneakers.png" alt="sneakers">
+            </div>
+
+            <!-- right box -->
+            <div class="right">
+
+                <!-- the head that contains title and giveaway info -->
+                <div class="head">
+                    <h1 class="title">OZ PRO III GIVEAWAY</h1>
+                <h5 class="ending-info">Hurry up!!! Giveaway Ends on <span time="time">Thursday, 14 Feb 2023<br> 11:59 pm</span></h5>
+                </div>
+
+                <!-- the giveaway body text -->
+                <div class="text">
+                   Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias tempore labore deserunt expedita sint, maiores, minus neque error omnis minima qui quia possimus ab in ipsa laborum nisi est sapiente distinctio dolores. Repellat soluta, debitis qui adipisci eum aliquid velit architecto <a href="#"><b> Read more...</b> </a>.
+                </div>
+
+                <!-- the ticking timeout features -->
+                <div class="timeout">
+
+                    <!-- days -->
+                    <div class="days">
+                        <span class="bold" id="days"></span>
+                        <span class="light">days</span>
+
+                        <!-- hours -->
+                    </div>
+                    <div class="hours">
+                         <span class="bold" id="hours"></span>
+                         <span class="light">hours</span>
+                    </div>
+
+                    <!-- mins -->
+                    <div class="mins">
+                         <span class="bold" id="mins"></span>
+                        <span class="light">mins</span>
+                    </div>
+
+                    <!-- secs -->
+                    <div class="secs">
+                         <span class="bold" id="secs"></span>
+                        <span class="light">secs</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Javscript file linking -->
+    <script src="timestamp.js"></script>
+</body>
+</html>

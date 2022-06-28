@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+
+}
+
+a{
+    color:#2A60A6;
+    font-weight: 800;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    background-color: #EEF4FA;
+  
+}
+
+.container, content{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    height: 400px;
+    flex-wrap: wrap;
+    padding: 100px;
+}
+
+.content{
+    display: flex;
+    gap:2.5rem;
+    background-color: white;
+}
+
+.left{
+    width:50%;
+    height: 100%;
+    background-color:rgb(251, 183, 73);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 50px;
+
+}
+
+.left img{
+    width:100%;
+}
+
+.right{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    gap:1.8rem;
+}
+
+
+.right .head .title{
+    color: #2A60A6;
+    font-size: 1.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 2px;
+    margin-bottom: 5px;
+}
+.right .head .ending-info{
+    font-weight: 800;
+    color:black;
+    font-size: .8rem;
+    letter-spacing: 2px;
+    
+}
+
+.right .text{
+    font-size: .8rem;
+    font-weight: 500;
+    color:#999;
+}
+
+
+/* timeout styling  */
+
+.right .timeout{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap:1rem;
+}
+
+.right .timeout div{
+    background-color: #2A60A6;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    color:white;
+    flex-direction: column;
+    align-items:center;
+    justify-items: space-evenly;
+    
+}
+
+.right .timeout div span{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right .timeout div span.bold{
+    font-weight: 500;
+    font-size: 1.5rem;
+    padding-top: 3px;
+
+}
+
+.right .timeout div span.light{
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: .7rem;
+    letter-spacing: 1px;
+}
+
+
+
+
+
+
